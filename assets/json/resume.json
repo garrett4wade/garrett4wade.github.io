@@ -1,27 +1,4 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
@@ -47,15 +24,22 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University",
+      "location": "Beijing, China",
+      "url": "https://iiis.tsinghua.edu.cn/en/",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2021",
+      "endDate": "2026 (Expected)"
+    },
+    {
+      "institution": "Department of Electric Engineering (EE), Tsinghua University",
+      "location": "Beijing, China",
+      "url": "https://www.ee.tsinghua.edu.cn/en/",
+      "area": "EE",
+      "studyType": "BEng",
+      "startDate": "2017",
+      "endDate": "2021",
     }
   ],
   "awards": [

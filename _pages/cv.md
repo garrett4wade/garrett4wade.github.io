@@ -1,11 +1,9 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
 ---
+
+You can download my resume [here](https://mega.nz/file/wPUVnCgB#tfxMyl481MBf_8bnUQgH9YaFcm012MHQOD3x-CWfG1k).
