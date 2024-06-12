@@ -26,4 +26,4 @@ Currently, I focus on developing efficient distributed systems for large-scale D
 
 I'd describe myself more as a programmer than a researcher.
 
-I enjoy coding, cooking, and music (Jay Chou, funk, and J-POP), but I'm not skilled at any of them.
+I enjoy coding, cooking, and music (Jay Chou, funk, Jazz, and J-POP).
