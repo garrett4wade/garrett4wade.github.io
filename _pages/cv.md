@@ -6,4 +6,4 @@ nav: true
 nav_order: 5
 ---
 
-You can download my resume [here](https://mega.nz/file/wPUVnCgB#tfxMyl481MBf_8bnUQgH9YaFcm012MHQOD3x-CWfG1k).
+You can download my resume [here](https://mega.nz/file/RKkD0axA#TMzPmPNqFKDN1nmRfm-7s2-TgZ01O9icXkiQRN1iyQM).
