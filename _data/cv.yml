@@ -1,97 +1,149 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# Personal Information
+name: Wei Fu
+phone: N/A
+email: fuwth17 AT gmail DOT com
+location: Beijing, CN
+github: garrett4wade
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+# Education
+education:
+  - degree: Ph.D. in Institute for Interdisciplinary Information Sciences (IIIS)
+    institution: Tsinghua University
+    location: Beijing, China
+    dates: 2021.9 – 2026.7
+    advisor: Yi Wu
+    research_direction: RL, MARL, Distributed Systems
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+  - degree: B.E. in Department of Electronic Engineering
+    institution: Tsinghua University
+    location: Beijing, China
+    dates: 2017.9 – 2021.7
+    advisor: Yi Wu
+    thesis: "Distributed Systems for Multi-Agent Games"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+  - degree: High School
+    institution: Yaohua High School
+    location: Tianjin, China
+    dates: 2014.9 – 2017.7
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+# Publications
+publications:
+  - title: "Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL"
+    authors: "Jiaxuan Gao, <strong>Wei Fu</strong>, Minyang Xie, Shusheng Xu, Chuyi He, Zhiyu Mei, Banghua Zhu, Yi Wu"
+    venue: "Arxiv Preprint"
+    year: 2025
+    type: preprint
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+  - title: "AReaL: A Large-Scale Asynchronous Reinforcement Learning System for Language Reasoning"
+    authors: "<strong>Wei Fu</strong>, Jiaxuan Gao, Xujie Shen, Chen Zhu, Zhiyu Mei, Chuyi He, Shusheng Xu, Guo Wei, Jun Mei, Jiashu Wang, Tongkai Yang, Binhang Yuan, Yi Wu"
+    venue: "Arxiv Preprint"
+    year: 2025
+    type: preprint
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+  - title: "On Designing Effective RL Reward at Training Time for LLM Reasoning"
+    authors: "Jiaxuan Gao, Shusheng Xu, Wenjie Ye, Weilin Liu, Chuyi He, <strong>Wei Fu</strong>, Zhiyu Mei, Guangju Wang, Yi Wu"
+    venue: "Arxiv Preprint"
+    year: 2024
+    type: preprint
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+  - title: "How Far Are We from Optimal Reasoning Efficiency?"
+    authors: "Jiaxuan Gao, Shu Yan, Qixin Tan, Lu Yang, Shusheng Xu, <strong>Wei Fu</strong>, Zhiyu Mei, Kaifeng Lyu, Yi Wu"
+    venue: "Arxiv Preprint"
+    year: 2025
+    type: preprint
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+  - title: "ReaL: Efficient RLHF Training of Large Language Models with Parameter Reallocation"
+    authors: "Zhiyu Mei*, <strong>Wei Fu*</strong>, Kaiwei Li, Guangju Wang, Huanchen Zhang, Yi Wu"
+    venue: "MLSys 2025"
+    year: 2025
+    note: "(*: Equal Contribution)"
+    type: conference
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - title: "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study"
+    authors: "Shusheng Xu, <strong>Wei Fu</strong>, Jiaxuan Gao, Wenjie Ye, Weilin Liu, Zhiyu Mei, Guangju Wang, Chao Yu, Yi Wu"
+    venue: "ICML 2024"
+    year: 2024
+    note: "Oral, 1.5%"
+    type: conference
+
+  - title: "SRL: Scaling Distributed Reinforcement Learning to Over Ten Thousand Cores"
+    authors: "Zhiyu Mei*, <strong>Wei Fu*</strong>, Guangju Wang, Huanchen Zhang, Yi Wu"
+    venue: "ICLR 2024"
+    year: 2024
+    note: "(*: Equal Contribution) ES-FoMo Workshop Oral"
+    type: conference
+
+  - title: "Learning Agile Bipedal Motions on a Quadrupedal Robot"
+    authors: "Yunfei Li, Jinhan Li, <strong>Wei Fu</strong>, Yi Wu"
+    venue: "ICRA 2024"
+    year: 2024
+    note: "EXPO Best Paper Final List"
+    type: conference
+
+  - title: "Iteratively Learn Diverse Strategies with State Distance Information"
+    authors: "<strong>Wei Fu</strong>, Weihua Du, Jingwei Li, Sunli Chen, Jingzhao Zhang, Yi Wu"
+    venue: "NeurIPS 2023"
+    year: 2023
+    type: conference
+
+  - title: "Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning"
+    authors: "<strong>Wei Fu</strong>, Chao Yu, Zelai Xu, Jiaqi Yang, Yi Wu"
+    venue: "ICML 2022"
+    year: 2022
+    note: "Spotlight Talk"
+    type: conference
+
+  - title: "Continuously Discovering Novel Strategies via Reward-Switching Policy Optimization"
+    authors: "Zihan Zhou*, <strong>Wei Fu*</strong>, Bingliang Zhang, Yi Wu"
+    venue: "ICLR 2022"
+    year: 2022
+    note: "(*: Equal Contribution)"
+    type: conference
+
+  - title: "Unlocking the Potential of MAPPO with Asynchronous Optimization"
+    authors: "<strong>Wei Fu</strong>, Chao Yu, Yunfei Li, Yi Wu"
+    venue: "CICAI 2021"
+    year: 2021
+    note: "Oral"
+    type: conference
+
+# Experience
+experience:
+  - position: Research Intern
+    company: Ant Research, RL Lab
+    dates: 2024.12 – 2025.05
+    description: "We build <strong><a href='https://github.com/inclusionAI/ASearcher'>ASearcher</a></strong>, a search agent trained with <strong><a href='https://github.com/inclusionAI/AReaL'>AReaL</a></strong>. Our agent exhibits extreme long-horizon search, with tool calls exceeding 40 turns and output tokens exceeding 150k during training time. With a simple agent designand no external LLMs, ASearcher achieves Avg@4 scores of 51.1 on xBench and 58.7 on GAIA, surpassing existing open-source 32B agents."
+
+  - position: Research Intern
+    company: Ant Research, RL Lab
+    dates: 2024.12 – 2025.05
+    description: "I lead the <strong><a href='https://github.com/inclusionAI/AReaL'>AReaL</a></strong> project, an asynchronous RL system for reasoning and agentic LLM training. It delivers the simplest solution for customizing agentic workflows, while reducing overall training time by 2.5× compared to the best open-source synchronous systems."
+
+  - position: Research Intern
+    company: Shanghai Qi Zhi Institute
+    dates: 2023.5 – 2024.10
+    description: "We designed <strong><a href='https://github.com/openpsi-project/ReaLHF'>ReaL</a></strong>, an efficient distributed system for LLM RLHF. It exhibits an average 26% improvement over heuristic approaches based on Megatron-LM, and at least 2× higher throughput than DeepSpeed-Chat."
+
+  - position: Research Intern
+    company: Shanghai Qi Zhi Institute
+    dates: 2021.10 – 2023.5
+    description: "We implemented <strong><a href='https://github.com/openpsi-project/srl'>SRL</a></strong>, a general-purpose game-centric RL system that can scale to over 10k CPU cores and 96 GPUs. We were the first to reproduce OpenAI's results in the Hide-And-Seek game."
+
+  - position: Research Intern
+    company: ByteDance
+    dates: 2020.6 – 2020.9
+    description: "We implemented a Ray-based system (not RLlib) to train an agent to play Unity-based FPS games. While the baseline required several days for training, our system could finish training within approximately 8 hours."
+
+# Awards
+awards:
+  - name: ByteDance Scholarship
+    year: 2024
+
+  - name: Scholarships in Tsinghua University
+    year: "2017 – 2024"
+
+# Service
+service:
+  - role: Reviewer
+    venues: "NeurIPS/ICML/ICLR"
+    years: "2022 – 2024"
