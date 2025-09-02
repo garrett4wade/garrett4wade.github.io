@@ -36,6 +36,7 @@ exclude = [
     ".*linkedin\\.com.*",
     ".*twitter\\.com.*",
     ".*x\\.com.*",
+    ".*reddit\\.com.*",
 
     # Sometimes problematic academic sites
     ".*doi\\.org.*",
@@ -43,6 +44,16 @@ exclude = [
 
     # Email links
     "^mailto:.*",
+
+    # Broken external links from README.md
+    ".*niweera\\.gq.*",
+    ".*alchemz\\.github\\.io.*",
+    ".*shubhashisroydipta\\.com.*",
+    ".*haylab\\.caltech\\.edu.*",
+    ".*alexhaydock\\.co\\.uk.*",
+    ".*rohandebsarkar\\.github\\.io.*",
+    ".*abhinav-mehta\\.github\\.io.*",
+    ".*giograno\\.me.*",
 ]
 
 # Exclude specific file paths
@@ -50,6 +61,7 @@ exclude_path = [
     "README.md",
     "_pages/404.md",
     "_posts/2015-10-20-math.md",
+    "_posts/2018-12-22-distill.md",
 ]
 
 # Include only specific schemes

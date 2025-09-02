@@ -11,7 +11,7 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.related_publications %}
+  {% if page.related_publications and jekyll.environment != 'production' %}
     <h2>References</h2>
     <div class="publications">
       {% bibliography --cited_in_order %}
