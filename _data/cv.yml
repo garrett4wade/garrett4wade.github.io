@@ -1,9 +1,10 @@
 # Personal Information
 name: Wei Fu
-phone: N/A
+phone: +86 18801030958
 email: fuwth17 AT gmail DOT com
 location: Beijing, CN
 github: garrett4wade
+website: https://garrett4wade.github.io/
 
 # Education
 education:
@@ -111,12 +112,12 @@ publications:
 experience:
   - position: Research Intern
     company: Ant Research, RL Lab
-    dates: 2024.12 – 2025.05
+    dates: 2025.06 – 2025.08
     description: "We built <strong><a href='https://github.com/inclusionAI/ASearcher'>ASearcher</a></strong>, a search agent trained with <strong><a href='https://github.com/inclusionAI/AReaL'>AReaL</a></strong>. Our agent exhibits extreme long-horizon search, with tool calls exceeding 40 turns and output tokens exceeding 150k during training time. With a simple agent design and no external LLMs, ASearcher achieves Avg@4 scores of 51.1 on xBench and 58.7 on GAIA, surpassing existing open-source 32B agents."
 
   - position: Research Intern
     company: Ant Research, RL Lab
-    dates: 2024.12 – 2025.05
+    dates: 2024.12 – 2025.06
     description: "I lead the <strong><a href='https://github.com/inclusionAI/AReaL'>AReaL</a></strong> project, an asynchronous RL system for reasoning and agentic LLM training. It delivers the simplest solution for customizing agentic workflows, while reducing overall training time by 2.5× compared to the best open-source synchronous systems."
 
   - position: Research Intern
