@@ -112,7 +112,7 @@ experience:
   - position: Research Intern
     company: Ant Research, RL Lab
     dates: 2024.12 – 2025.05
-    description: "We build <strong><a href='https://github.com/inclusionAI/ASearcher'>ASearcher</a></strong>, a search agent trained with <strong><a href='https://github.com/inclusionAI/AReaL'>AReaL</a></strong>. Our agent exhibits extreme long-horizon search, with tool calls exceeding 40 turns and output tokens exceeding 150k during training time. With a simple agent designand no external LLMs, ASearcher achieves Avg@4 scores of 51.1 on xBench and 58.7 on GAIA, surpassing existing open-source 32B agents."
+    description: "We built <strong><a href='https://github.com/inclusionAI/ASearcher'>ASearcher</a></strong>, a search agent trained with <strong><a href='https://github.com/inclusionAI/AReaL'>AReaL</a></strong>. Our agent exhibits extreme long-horizon search, with tool calls exceeding 40 turns and output tokens exceeding 150k during training time. With a simple agent design and no external LLMs, ASearcher achieves Avg@4 scores of 51.1 on xBench and 58.7 on GAIA, surpassing existing open-source 32B agents."
 
   - position: Research Intern
     company: Ant Research, RL Lab
