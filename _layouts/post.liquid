@@ -60,12 +60,19 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
-        {% toc %}
+        <nav class="toc">
+          <h3>Contents</h3>
+          {{ content | toc_only }}
+        </nav>
       </div>
       <hr>
     {% endif %}
     <div id="markdown-content">
-      {{ content }}
+      {% if page.toc %}
+        {{ content | inject_anchors }}
+      {% else %}
+        {{ content }}
+      {% endif %}
     </div>
   </article>
 
