@@ -2,7 +2,7 @@
 name: Wei Fu
 phone: +86 18801030958
 email: fuwth17 AT gmail DOT com
-location: Beijing, CN
+location: N/A
 github: garrett4wade
 website: https://garrett4wade.github.io/
 
@@ -13,13 +13,13 @@ education:
     location: Beijing, China
     dates: 2021.9 – 2026.7
     advisor: Yi Wu
-    research_direction: RL, MARL, Distributed Systems
+    thesis: "Algorithm-System Co-Design for Efficient Agent Behavior Discovery"
+    research_direction: RL; RL Infrastructure for Multi-Agent Games and LLM Agents
 
   - degree: B.E. in Department of Electronic Engineering
     institution: Tsinghua University
     location: Beijing, China
     dates: 2017.9 – 2021.7
-    advisor: Yi Wu
     thesis: "Distributed Systems for Multi-Agent Games"
 
   - degree: High School
@@ -29,17 +29,29 @@ education:
 
 # Publications
 publications:
+  - title: "AReaL-Hex: Accommodating Asynchronous RL Training over Heterogeneous GPUs"
+    authors: "Ran Yan, Youhe Jiang, Tianyuan Wu, Jiaxuan Gao, Zhiyu Mei, <strong>Wei Fu</strong>, Haohui Mai, Wei Wang, Yi Wu, Binhang Yuan"
+    venue: "Arxiv Preprint"
+    year: 2026
+    type: preprint
+
+  - title: "AReaL-DTA: Dynamic Tree Attention for Efficient Reinforcement Learning of Large Language Models"
+    authors: "Jiarui Zhang, Yuchen Yang, Ran Yan, Zhiyu Mei, Liyuan Zhang, Daifeng Li, <strong>Wei Fu</strong>, Jiaxuan Gao, Shusheng Xu, Yi Wu, Binhang Yuan"
+    venue: "ICML 2026"
+    year: 2026
+    type: conference
+
   - title: "Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL"
     authors: "Jiaxuan Gao, <strong>Wei Fu</strong>, Minyang Xie, Shusheng Xu, Chuyi He, Zhiyu Mei, Banghua Zhu, Yi Wu"
-    venue: "Arxiv Preprint"
-    year: 2025
-    type: preprint
+    venue: "ICLR 2026"
+    year: 2026
+    type: conference
 
   - title: "AReaL: A Large-Scale Asynchronous Reinforcement Learning System for Language Reasoning"
     authors: "<strong>Wei Fu</strong>, Jiaxuan Gao, Xujie Shen, Chen Zhu, Zhiyu Mei, Chuyi He, Shusheng Xu, Guo Wei, Jun Mei, Jiashu Wang, Tongkai Yang, Binhang Yuan, Yi Wu"
-    venue: "Arxiv Preprint"
+    venue: "NeurIPS 2025"
     year: 2025
-    type: preprint
+    type: conference
 
   - title: "On Designing Effective RL Reward at Training Time for LLM Reasoning"
     authors: "Jiaxuan Gao, Shusheng Xu, Wenjie Ye, Weilin Liu, Chuyi He, <strong>Wei Fu</strong>, Zhiyu Mei, Guangju Wang, Yi Wu"
@@ -49,9 +61,9 @@ publications:
 
   - title: "How Far Are We from Optimal Reasoning Efficiency?"
     authors: "Jiaxuan Gao, Shu Yan, Qixin Tan, Lu Yang, Shusheng Xu, <strong>Wei Fu</strong>, Zhiyu Mei, Kaifeng Lyu, Yi Wu"
-    venue: "Arxiv Preprint"
+    venue: "NeurIPS 2025"
     year: 2025
-    type: preprint
+    type: conference
 
   - title: "ReaL: Efficient RLHF Training of Large Language Models with Parameter Reallocation"
     authors: "Zhiyu Mei*, <strong>Wei Fu*</strong>, Kaiwei Li, Guangju Wang, Huanchen Zhang, Yi Wu"
